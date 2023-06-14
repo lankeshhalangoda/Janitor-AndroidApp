@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "250807654305",
+    "project_id": "janitor-by-lankesh",
+    "storage_bucket": "janitor-by-lankesh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250807654305:android:b624a884b110df860adde0",
+        "android_client_info": {
+          "package_name": "com.example.janitorbylankesh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250807654305-3pd45tjk8g61hq23ijmtfubnipfbgma1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo6_OCqMlSBzpbeDJ-04rnm847DeKQuSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250807654305-3pd45tjk8g61hq23ijmtfubnipfbgma1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

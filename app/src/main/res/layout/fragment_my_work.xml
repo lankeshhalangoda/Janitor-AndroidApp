@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyWorkFragment">
+
+    <TextView
+        android:id="@+id/tttttttt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are about to direct to the fee calculator"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        app:fontFamily="@font/poppins_semibold" />
+
+    <ImageView
+        android:id="@+id/calimage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/calimage"
+        android:layout_below="@id/tttttttt"/>
+
+    <TextView
+        android:id="@+id/rrrrrrrr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make sure to mention the generated fee in your description"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        app:fontFamily="@font/poppins_semibold"
+        android:layout_below="@id/calimage"/>
+
+
+    <Button
+        android:id="@+id/exploreHomeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO TO CALCULATOR"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/rrrrrrrr"/>
+</RelativeLayout>
